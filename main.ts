@@ -21,4 +21,5 @@ basic.forever(function () {
     basic.showNumber(counter)
     basic.pause(100)
     basic.showNumber(0)
+    led.toggle(0, 0)
 })
