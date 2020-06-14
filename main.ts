@@ -20,4 +20,5 @@ basic.forever(function () {
     // We will constantly display the number of revolutions counted
     basic.showNumber(counter)
     basic.pause(100)
+    basic.showNumber(0)
 })
